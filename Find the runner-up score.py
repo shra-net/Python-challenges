@@ -21,7 +21,7 @@ if __name__ == '__main__':
     a=set(arr) #set() removes duplicates
     b=list(a)  #made a list as there are limited functions that the 'set' can take
     c=max(b) 
-    b.remove(c) #find the largest entry in the list and removed it 
+    b.remove(c) #find the largest entry in the list and remove it 
     d=max(b)  # now find the largest entry in the new list and print
     print(d)
 
