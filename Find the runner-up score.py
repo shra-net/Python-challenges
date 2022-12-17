@@ -18,11 +18,11 @@ Sample Input 0
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
-    a=set(arr)
-    b=list(a)
-    c=max(b)
-    b.remove(c)
-    d=max(b)
+    a=set(arr) #set() removes duplicates
+    b=list(a)  #made a list as there are limited functions that the 'set' can take
+    c=max(b) 
+    b.remove(c) #find the largest entry in the list and removed it 
+    d=max(b)  # now find the largest entry in the new list and print
     print(d)
 
     
